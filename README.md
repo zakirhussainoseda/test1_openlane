@@ -47,4 +47,4 @@ openlane_new_tutorial
 <br/>make test # This is to test that the flow and the pdk were properly updated
 
 <br/>
-(configuration variables)[https://openlane.readthedocs.io/en/latest/reference/configuration.html]
+[configuration variables](https://openlane.readthedocs.io/en/latest/reference/configuration.html)
