@@ -55,14 +55,14 @@ If these don't work, you may want to take a look at:
 https://github.com/efabless/openlane/blob/master/regression_results/README.md
 and explore different utilizations and densities.
 <br/>
-To launch kalyout
-XDG_SESSION_TYPE=x11 klayout
+<br/>To launch kalyout
+<br/>XDG_SESSION_TYPE=x11 klayout
 <br/>
-Updating OpenLane
-If you already have the repo locally, then there is no need to re-clone it. You can run the following:
+<br/>Updating OpenLane
+<br/>If you already have the repo locally, then there is no need to re-clone it. You can run the following:
 
-cd OpenLane/
-git checkout master
-git pull
-make
-make test # This is to test that the flow and the pdk were properly updated
+<br/>cd OpenLane/
+<br/>git checkout master
+<br/>git pull
+<br/>make
+<br/>make test # This is to test that the flow and the pdk were properly updated
