@@ -3,15 +3,15 @@ This is to present the demo on openlane tools.
 
 openlane_new_tutorial
 <br/>
-To lauch the openlane command prompt type in the terminal where the OpenLane folder is
+<br/>To lauch the openlane command prompt type in the terminal where the OpenLane folder is
 cd OpenLane
 make mount
 <br/>
-To create the design type the following command in the terminal
+<br/>To create the design type the following command in the terminal
 ./flow.tcl -design <design_name> -init_design_config -add_to_designs -config_file config.tcl
 <br/>
-To run openlane interactively
-You may run the flow interactively by using the -interactive option:
+<br/>To run openlane interactively
+<br/>You may run the flow interactively by using the -interactive option:
 ./flow.tcl -interactive
 <br/>
 A tcl shell will be opened where the openlane package is automatically sourced:
