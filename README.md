@@ -44,7 +44,5 @@ openlane_new_tutorial
 <br/>git checkout master
 <br/>git pull
 <br/>make
-<br/>make test # This is to test that the flow and the pdk were properly updated
-
-<br/>
+<br/>make test # This is to test that the flow and the pdk were properly updated<br/>
 [configuration variables](https://openlane.readthedocs.io/en/latest/reference/configuration.html)
