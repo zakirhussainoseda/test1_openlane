@@ -3,9 +3,9 @@ This is to present the demo on openlane tools.
 
 openlane_new_tutorial
 <br/>
-<br/>To lauch the openlane command prompt type in the terminal where the OpenLane folder is
-cd OpenLane
-make mount
+<br/>To lauch the openlane in the command prompt type in the terminal where the OpenLane folder is
+<br/>cd OpenLane
+<br/>make mount
 <br/>
 <br/>To create the design type the following command in the terminal
 <br/>./flow.tcl -design <design_name> -init_design_config -add_to_designs -config_file config.tcl
