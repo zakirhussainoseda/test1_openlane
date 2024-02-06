@@ -8,48 +8,48 @@ cd OpenLane
 make mount
 <br/>
 <br/>To create the design type the following command in the terminal
-./flow.tcl -design <design_name> -init_design_config -add_to_designs -config_file config.tcl
+<br/>./flow.tcl -design <design_name> -init_design_config -add_to_designs -config_file config.tcl
 <br/>
 <br/>To run openlane interactively
 <br/>You may run the flow interactively by using the -interactive option:
-./flow.tcl -interactive
+<br/>./flow.tcl -interactive
 <br/>
-A tcl shell will be opened where the openlane package is automatically sourced:
+<br/>A tcl shell will be opened where the openlane package is automatically sourced:
 <br/>
-Then type the follwoing
+<br/>Then type the follwoing
 <br/>
-% package require openlane
+<br/>% package require openlane
 <br/>
-Then, you should be able to run the following main commands:
+<br/>Then, you should be able to run the following main commands:
 <br/>
-Any tcl command.
+<br/>Any tcl command.
 <br/>
-prep -design <design> -tag <tag> -config <config> -init_design_config -overwrite
+<br/>prep -design <design> -tag <tag> -config <config> -init_design_config -overwrite
 <br/>
-similar to the command line arguments, design is required and the rest is optional
+<br/>similar to the command line arguments, design is required and the rest is optional
 <br/>
-run_synthesis
-run_floorplan
-run_placement
-run_cts
-run_routing
- write_powered_verilog  " followed by "  set_netlist $::env(routing_logs)/$::env(DESIGN_NAME).powered.v 
+<br/>run_synthesis
+<br/>run_floorplan
+<br/>run_placement
+<br/>run_cts
+<br/>run_routing
+<br/>write_powered_verilog  " followed by "  set_netlist $::env(routing_logs)/$::env(DESIGN_NAME).powered.v 
 <br/>
-write_powered_verilog -output_def -output_nl -output_pnl
+<br/>write_powered_verilog -output_def -output_nl -output_pnl
 <br/>
-run_magic
-run_magic_spice_export
-run_magic_drc
-run_lvs
-run_antenna_check
+<br/>run_magic
+<br/>run_magic_spice_export
+<br/>run_magic_drc
+<br/>run_lvs
+<br/>run_antenna_check
 <br/>
-The above commands can also be written in a file and passed to flow.tcl:
+<br/>The above commands can also be written in a file and passed to flow.tcl:
 ./flow.tcl -interactive -file <file>
 <br/>
-If the design is too small. you try appending these to your configuration file (config.tcl):
-set ::env(FP_CORE_UTIL) 5
-set ::env(PL_TARGET_DENSITY) 0.5
-(low utilization)
+<br/>If the design is too small. you try appending these to your configuration file (config.tcl):
+<br/>set ::env(FP_CORE_UTIL) 5
+<br/>set ::env(PL_TARGET_DENSITY) 0.5
+<br/>(low utilization)
 <br/>
 If these don't work, you may want to take a look at:
 https://github.com/efabless/openlane/blob/master/regression_results/README.md
